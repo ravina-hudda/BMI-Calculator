@@ -1,11 +1,17 @@
 
-
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:purple; 
+}
 .container {
-    width: 575px;
-    height: 825px;
-  
-    background-color: #797978;
-    padding-left: 30px;
+    background-color: rgb(233, 196, 233);
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+
+    text-align: center;
   }
   #height,
   #weight {
@@ -27,18 +33,28 @@
   }
   
   button {
-    width: 150px;
-    height: 35px;
+  
     margin-left: 90px;
     margin-top: 25px;
-    background-color: #fff;
-    padding: 1px 30px;
-    border-radius: 8px;
-    color: #212121;
-    text-decoration: none;
-    border: 2px solid #212121;
-  
-    font-size: 25px;
+    
+    color: #fff;
+    background-color: rgb(242, 115, 242);
+    border-color:rgb(244, 136, 244);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
   }
   
   h1 {
